@@ -19,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final TextView textView=findViewById(R.id.tv1);
+        TextView tv_version=findViewById(R.id.version);
+        tv_version.setText("v1.0");
         Button button1=findViewById(R.id.btn1);
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
